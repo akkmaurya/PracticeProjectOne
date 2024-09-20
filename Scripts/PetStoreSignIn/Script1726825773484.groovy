@@ -18,19 +18,40 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 /*
-* 1. Open Browser
-* 2. Navigate URL https://petstore.octoperf.com/actions/Catalog.action
-* 3. Verify Sign In link present on page 
-*/
-// Open Browser
+ * 1. Open Browser
+ * 2. Navigate URL https://petstore.octoperf.com/actions/Catalog.action
+ * 3. Verify Sign In link present on page
+ * 4. Click on Sign in link
+ * 5. Enter username
+ * 6. Enter password
+ * 7. Click on Login button
+ * 8. Verify sign out link present on page
+ * 9. Click on Sign out link
+ */
+// 1. Open Browser
 WebUI.openBrowser('')
 
-// Navigate to URL
+// 2. Navigate URL https://petstore.octoperf.com/actions/Catalog.action
 WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action')
 
-// Verify Sign In link present on page
-WebUI.verifyElementPresent(findTestObject('Page_JPetStore Demo/a_Sign In'), 0)
+// 3. Verify Sign In link present on page
+WebUI.verifyElementPresent(findTestObject('Page_JPetStore Demo/a_Sign In'), 1)
 
-WebUI.closeBrowser()
+// 4. Click on Sign in link
+WebUI.click(findTestObject('Page_JPetStore Demo/a_Sign In'))
 
+// 5. Enter username
+WebUI.setText(findTestObject('Page_JPetStore Demo/input_Need a user name and password_username'), 'testuser')
+
+// 6. Enter password
+WebUI.setText(findTestObject('Page_JPetStore Demo/input_New password_password'), 'testuser')
+
+// 7. Click on Login button
+WebUI.click(findTestObject('Page_JPetStore Demo/input_Need a user name and password_signon'))
+
+// 8. Verify sign out link present on page
+WebUI.verifyElementPresent(findTestObject('Page_JPetStore Demo/signoutlink'), 1)
+
+// 9. Click on Sign out link
+WebUI.click(findTestObject('Page_JPetStore Demo/signoutlink'))
 
