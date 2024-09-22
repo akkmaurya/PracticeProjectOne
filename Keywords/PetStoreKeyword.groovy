@@ -14,18 +14,30 @@ import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
 public class PetStoreKeyword {
-	
-	def lauchBrowser() {
-		
+
+
+
+	@Keyword
+	def login() {
+
+		WebUI.click(findTestObject('Page_JPetStore Demo/a_Sign In'), FailureHandling.STOP_ON_FAILURE)
+
+		WebUI.setText(findTestObject('Page_JPetStore Demo/input_Need a user name and password_username'), 'testuser')
+
+		WebUI.setText(findTestObject('Page_JPetStore Demo/input_New password_password'), 'testuser')
+
+		WebUI.click(findTestObject('Page_JPetStore Demo/input_Need a user name and password_signon'))
 	}
-	
-	def closeBrowser() {
-		
+
+	@Keyword
+	def logout() {
+
+		WebUI.click(findTestObject('Object Repository/Page_JPetStore Demo/signoutlink'), FailureHandling.STOP_ON_FAILURE)
 	}
-	
 }

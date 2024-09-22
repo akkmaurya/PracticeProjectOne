@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PurchaseCats</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>83a13d38-85a4-44a0-aee1-889e7a84a3f7</testCaseGuid>
+</TestCaseEntity>

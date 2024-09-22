@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PetStoreSuite1,Chrome 128.0.0.0,,,20-09-2024 16:09:01,20-09-2024 16:09:26,24.848s,PASSED
+,,,,,,,
+Test Cases/LaunchPetStorePage,Chrome 128.0.0.0,,,20-09-2024 16:09:01,20-09-2024 16:09:07,5.969s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,20-09-2024 16:09:02,20-09-2024 16:09:06,3.839s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,20-09-2024 16:09:06,20-09-2024 16:09:06,0.983s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/a_Sign In""), 0)",Chrome 128.0.0.0,,,20-09-2024 16:09:06,20-09-2024 16:09:07,0.414s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,20-09-2024 16:09:07,20-09-2024 16:09:07,0.411s,PASSED
+,,,,,,,
+Test Cases/PetStoreRegistration,Chrome 128.0.0.0,,,20-09-2024 16:09:07,20-09-2024 16:09:20,12.785s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,20-09-2024 16:09:07,20-09-2024 16:09:09,1.262s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,20-09-2024 16:09:09,20-09-2024 16:09:10,0.922s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/a_Sign In""))",Chrome 128.0.0.0,,,20-09-2024 16:09:10,20-09-2024 16:09:10,0.556s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/a_Register Now""))",Chrome 128.0.0.0,,,20-09-2024 16:09:10,20-09-2024 16:09:11,0.534s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_User ID_username""), ""petstoreuser"")",Chrome 128.0.0.0,,,20-09-2024 16:09:11,20-09-2024 16:09:11,0.687s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_New password_password""), ""petstoreuser"")",Chrome 128.0.0.0,,,20-09-2024 16:09:11,20-09-2024 16:09:12,0.651s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Repeat password_repeatedPassword""), ""petstoreuser"")",Chrome 128.0.0.0,,,20-09-2024 16:09:12,20-09-2024 16:09:13,0.611s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_First name_account.firstName""), ""petstoreuser"")",Chrome 128.0.0.0,,,20-09-2024 16:09:13,20-09-2024 16:09:13,0.628s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Last name_account.lastName""), ""petstoreuser"")",Chrome 128.0.0.0,,,20-09-2024 16:09:13,20-09-2024 16:09:14,0.646s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Email_account.email""), ""petstoreuser@gmail.com"")",Chrome 128.0.0.0,,,20-09-2024 16:09:14,20-09-2024 16:09:15,0.656s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Phone_account.phone""), ""1233214567"")",Chrome 128.0.0.0,,,20-09-2024 16:09:15,20-09-2024 16:09:15,0.627s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Address 1_account.address1""), ""Address1"")",Chrome 128.0.0.0,,,20-09-2024 16:09:15,20-09-2024 16:09:16,0.649s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Address 2_account.address2""), ""Address2"")",Chrome 128.0.0.0,,,20-09-2024 16:09:16,20-09-2024 16:09:17,0.621s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_City_account.city""), ""Mumbai"")",Chrome 128.0.0.0,,,20-09-2024 16:09:17,20-09-2024 16:09:17,0.814s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_State_account.state""), ""Maha"")",Chrome 128.0.0.0,,,20-09-2024 16:09:17,20-09-2024 16:09:18,0.596s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Zip_account.zip""), ""429312"")",Chrome 128.0.0.0,,,20-09-2024 16:09:18,20-09-2024 16:09:19,0.601s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Country_account.country""), ""India"")",Chrome 128.0.0.0,,,20-09-2024 16:09:19,20-09-2024 16:09:19,0.601s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/input_Enable MyBanner_newAccount""))",Chrome 128.0.0.0,,,20-09-2024 16:09:19,20-09-2024 16:09:20,0.969s,PASSED
+,,,,,,,
+Test Cases/PetStoreSignIn,Chrome 128.0.0.0,,,20-09-2024 16:09:20,20-09-2024 16:09:26,5.825s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,20-09-2024 16:09:20,20-09-2024 16:09:21,1.120s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,20-09-2024 16:09:21,20-09-2024 16:09:22,0.947s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/a_Sign In""), 1)",Chrome 128.0.0.0,,,20-09-2024 16:09:22,20-09-2024 16:09:23,0.273s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/a_Sign In""))",Chrome 128.0.0.0,,,20-09-2024 16:09:23,20-09-2024 16:09:23,0.522s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Need a user name and password_username""), ""testuser"")",Chrome 128.0.0.0,,,20-09-2024 16:09:23,20-09-2024 16:09:24,0.617s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_New password_password""), ""testuser"")",Chrome 128.0.0.0,,,20-09-2024 16:09:24,20-09-2024 16:09:24,0.635s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/input_Need a user name and password_signon""))",Chrome 128.0.0.0,,,20-09-2024 16:09:24,20-09-2024 16:09:25,0.688s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/signoutlink""), 1)",Chrome 128.0.0.0,,,20-09-2024 16:09:25,20-09-2024 16:09:25,0.266s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/signoutlink""))",Chrome 128.0.0.0,,,20-09-2024 16:09:25,20-09-2024 16:09:26,0.695s,PASSED
