@@ -17,21 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*
- * 1. Open Browser
- * 2. Navigate URL https://petstore.octoperf.com/actions/Catalog.action
- * 3. Verify Sign In link present on page
- * 4. Sign in with username testuser and password testuser
- * 5. Click on Login button
- * 6. Click on Fish link
- */
-// 1. Open Browser
-WebUI.openBrowser('')
-
-// 2. Navigate URL https://petstore.octoperf.com/actions/Catalog.action
-WebUI.navigateToUrl('https://petstore.octoperf.com/actions/Catalog.action')
-
-CustomKeywords.'PetStoreKeyword.login'()
+CustomKeywords.'BrowserFunctionKeyword.lauchBrowser'()
 
 WebUI.click(findTestObject('Page_JPetStore Demo/FishLink'))
 
@@ -41,15 +27,5 @@ WebUI.click(findTestObject('Page_JPetStore Demo/LargeAngelFish'))
 
 WebUI.click(findTestObject('Page_JPetStore Demo/ProceedToCheckout'))
 
-WebUI.verifyElementPresent(findTestObject('Page_JPetStore Demo/ContinueButton'), 0)
-
-WebUI.click(findTestObject('Page_JPetStore Demo/ContinueButton'))
-
-WebUI.click(findTestObject('Page_JPetStore Demo/ConfirmButton'))
-
-WebUI.verifyElementPresent(findTestObject('Page_JPetStore Demo/OrderSubmittedLabel'), 0)
-
-WebUI.click(findTestObject('Page_JPetStore Demo/signoutlink'))
-
-WebUI.closeBrowser()
+CustomKeywords.'PetStoreKeyword.login'()
 

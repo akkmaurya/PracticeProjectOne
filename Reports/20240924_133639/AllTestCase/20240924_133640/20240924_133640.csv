@@ -1,0 +1,169 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AllTestCase,Chrome 128.0.0.0,,,24-09-2024 13:36:59,24-09-2024 13:38:38,1m - 38.927s,PASSED
+,,,,,,,
+Test Cases/LaunchPetStorePage,Chrome 128.0.0.0,,,24-09-2024 13:36:59,24-09-2024 13:37:05,5.175s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,24-09-2024 13:37:00,24-09-2024 13:37:03,2.988s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,24-09-2024 13:37:03,24-09-2024 13:37:04,1.246s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/a_Sign In""), 0)",Chrome 128.0.0.0,,,24-09-2024 13:37:04,24-09-2024 13:37:04,0.386s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:37:04,24-09-2024 13:37:05,0.198s,PASSED
+,,,,,,,
+Test Cases/PetStoreRegistration,Chrome 128.0.0.0,,,24-09-2024 13:37:05,24-09-2024 13:37:16,11.707s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,24-09-2024 13:37:05,24-09-2024 13:37:06,1.044s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,24-09-2024 13:37:06,24-09-2024 13:37:07,1.085s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/a_Sign In""))",Chrome 128.0.0.0,,,24-09-2024 13:37:07,24-09-2024 13:37:07,0.560s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/a_Register Now""))",Chrome 128.0.0.0,,,24-09-2024 13:37:07,24-09-2024 13:37:08,0.506s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_User ID_username""), ""petstoreuser"")",Chrome 128.0.0.0,,,24-09-2024 13:37:08,24-09-2024 13:37:09,0.615s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_New password_password""), ""petstoreuser"")",Chrome 128.0.0.0,,,24-09-2024 13:37:09,24-09-2024 13:37:09,0.594s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Repeat password_repeatedPassword""), ""petstoreuser"")",Chrome 128.0.0.0,,,24-09-2024 13:37:09,24-09-2024 13:37:10,0.619s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_First name_account.firstName""), ""petstoreuser"")",Chrome 128.0.0.0,,,24-09-2024 13:37:10,24-09-2024 13:37:10,0.598s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Last name_account.lastName""), ""petstoreuser"")",Chrome 128.0.0.0,,,24-09-2024 13:37:10,24-09-2024 13:37:11,0.586s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Email_account.email""), ""petstoreuser@gmail.com"")",Chrome 128.0.0.0,,,24-09-2024 13:37:11,24-09-2024 13:37:12,0.618s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Phone_account.phone""), ""1233214567"")",Chrome 128.0.0.0,,,24-09-2024 13:37:12,24-09-2024 13:37:12,0.582s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Address 1_account.address1""), ""Address1"")",Chrome 128.0.0.0,,,24-09-2024 13:37:12,24-09-2024 13:37:13,0.578s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Address 2_account.address2""), ""Address2"")",Chrome 128.0.0.0,,,24-09-2024 13:37:13,24-09-2024 13:37:13,0.604s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_City_account.city""), ""Mumbai"")",Chrome 128.0.0.0,,,24-09-2024 13:37:13,24-09-2024 13:37:14,0.578s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_State_account.state""), ""Maha"")",Chrome 128.0.0.0,,,24-09-2024 13:37:14,24-09-2024 13:37:14,0.576s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Zip_account.zip""), ""429312"")",Chrome 128.0.0.0,,,24-09-2024 13:37:14,24-09-2024 13:37:15,0.570s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Country_account.country""), ""India"")",Chrome 128.0.0.0,,,24-09-2024 13:37:15,24-09-2024 13:37:16,0.584s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/input_Enable MyBanner_newAccount""))",Chrome 128.0.0.0,,,24-09-2024 13:37:16,24-09-2024 13:37:16,0.625s,PASSED
+,,,,,,,
+Test Cases/PetStoreSignIn,Chrome 128.0.0.0,,,24-09-2024 13:37:16,24-09-2024 13:37:22,5.548s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,24-09-2024 13:37:16,24-09-2024 13:37:17,1.072s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,24-09-2024 13:37:17,24-09-2024 13:37:18,0.524s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/a_Sign In""), 1)",Chrome 128.0.0.0,,,24-09-2024 13:37:18,24-09-2024 13:37:19,0.654s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/a_Sign In""))",Chrome 128.0.0.0,,,24-09-2024 13:37:19,24-09-2024 13:37:19,0.482s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Need a user name and password_username""), ""testuser"")",Chrome 128.0.0.0,,,24-09-2024 13:37:19,24-09-2024 13:37:20,0.612s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_New password_password""), ""testuser"")",Chrome 128.0.0.0,,,24-09-2024 13:37:20,24-09-2024 13:37:20,0.568s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/input_Need a user name and password_signon""))",Chrome 128.0.0.0,,,24-09-2024 13:37:20,24-09-2024 13:37:21,0.632s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/signoutlink""), 1)",Chrome 128.0.0.0,,,24-09-2024 13:37:21,24-09-2024 13:37:21,0.274s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/signoutlink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:21,24-09-2024 13:37:22,0.618s,PASSED
+,,,,,,,
+Test Cases/PurchaseAllPet,Chrome 128.0.0.0,,,24-09-2024 13:37:22,24-09-2024 13:37:36,14.463s,PASSED
+BrowserFunctionKeyword.lauchBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:37:22,24-09-2024 13:37:24,2.016s,PASSED
+PetStoreKeyword.login(),Chrome 128.0.0.0,,,24-09-2024 13:37:24,24-09-2024 13:37:26,2.375s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/FishLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:26,24-09-2024 13:37:27,0.482s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/AngelFish""))",Chrome 128.0.0.0,,,24-09-2024 13:37:27,24-09-2024 13:37:27,0.477s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/LargeAngelFish""))",Chrome 128.0.0.0,,,24-09-2024 13:37:27,24-09-2024 13:37:28,0.473s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/DogsLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:28,24-09-2024 13:37:28,0.518s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/BulldogLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:28,24-09-2024 13:37:29,0.517s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/MaleBullDog""))",Chrome 128.0.0.0,,,24-09-2024 13:37:29,24-09-2024 13:37:29,0.480s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/CatsLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:29,24-09-2024 13:37:30,0.488s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ManxCat""))",Chrome 128.0.0.0,,,24-09-2024 13:37:30,24-09-2024 13:37:30,0.503s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/TaillessManxAddtoCart""))",Chrome 128.0.0.0,,,24-09-2024 13:37:30,24-09-2024 13:37:31,0.494s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ReptilesLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:31,24-09-2024 13:37:31,0.479s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/RattleSnakeLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:31,24-09-2024 13:37:32,0.487s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/VenomlessAddtoCart""))",Chrome 128.0.0.0,,,24-09-2024 13:37:32,24-09-2024 13:37:32,0.505s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/BirdsLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:32,24-09-2024 13:37:33,0.493s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/AmazonParrotLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:33,24-09-2024 13:37:33,0.516s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ParrotAddtoCart""))",Chrome 128.0.0.0,,,24-09-2024 13:37:33,24-09-2024 13:37:34,0.486s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ProceedToCheckout""))",Chrome 128.0.0.0,,,24-09-2024 13:37:34,24-09-2024 13:37:34,0.482s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ContinueButton""))",Chrome 128.0.0.0,,,24-09-2024 13:37:34,24-09-2024 13:37:35,0.483s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ConfirmButton""))",Chrome 128.0.0.0,,,24-09-2024 13:37:35,24-09-2024 13:37:35,0.466s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/OrderSubmittedLabel""), 0)",Chrome 128.0.0.0,,,24-09-2024 13:37:35,24-09-2024 13:37:35,0.277s,PASSED
+PetStoreKeyword.logout(),Chrome 128.0.0.0,,,24-09-2024 13:37:35,24-09-2024 13:37:36,0.637s,PASSED
+BrowserFunctionKeyword.closeBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:37:36,24-09-2024 13:37:36,0.184s,PASSED
+,,,,,,,
+Test Cases/PurchaseBirds,Chrome 128.0.0.0,,,24-09-2024 13:37:36,24-09-2024 13:37:44,8.078s,PASSED
+BrowserFunctionKeyword.lauchBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:37:36,24-09-2024 13:37:38,1.752s,PASSED
+PetStoreKeyword.login(),Chrome 128.0.0.0,,,24-09-2024 13:37:38,24-09-2024 13:37:40,2.296s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/BirdsLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:40,24-09-2024 13:37:41,0.479s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/AmazonParrotLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:41,24-09-2024 13:37:41,0.485s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ParrotAddtoCart""))",Chrome 128.0.0.0,,,24-09-2024 13:37:41,24-09-2024 13:37:42,0.492s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ProceedToCheckout""))",Chrome 128.0.0.0,,,24-09-2024 13:37:42,24-09-2024 13:37:42,0.496s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ContinueButton""))",Chrome 128.0.0.0,,,24-09-2024 13:37:42,24-09-2024 13:37:43,0.479s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ConfirmButton""))",Chrome 128.0.0.0,,,24-09-2024 13:37:43,24-09-2024 13:37:43,0.493s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/OrderSubmittedLabel""), 0)",Chrome 128.0.0.0,,,24-09-2024 13:37:43,24-09-2024 13:37:44,0.262s,PASSED
+PetStoreKeyword.logout(),Chrome 128.0.0.0,,,24-09-2024 13:37:44,24-09-2024 13:37:44,0.636s,PASSED
+BrowserFunctionKeyword.closeBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:37:44,24-09-2024 13:37:44,0.111s,PASSED
+,,,,,,,
+Test Cases/PurchaseCats,Chrome 128.0.0.0,,,24-09-2024 13:37:44,24-09-2024 13:37:53,8.327s,PASSED
+BrowserFunctionKeyword.lauchBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:37:45,24-09-2024 13:37:46,1.796s,PASSED
+PetStoreKeyword.login(),Chrome 128.0.0.0,,,24-09-2024 13:37:46,24-09-2024 13:37:49,2.235s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/CatsLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:49,24-09-2024 13:37:49,0.487s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ManxCat""))",Chrome 128.0.0.0,,,24-09-2024 13:37:49,24-09-2024 13:37:50,0.509s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/TaillessManxAddtoCart""))",Chrome 128.0.0.0,,,24-09-2024 13:37:50,24-09-2024 13:37:50,0.470s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ProceedToCheckout""))",Chrome 128.0.0.0,,,24-09-2024 13:37:50,24-09-2024 13:37:51,0.530s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ContinueButton""))",Chrome 128.0.0.0,,,24-09-2024 13:37:51,24-09-2024 13:37:51,0.506s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ConfirmButton""))",Chrome 128.0.0.0,,,24-09-2024 13:37:51,24-09-2024 13:37:52,0.487s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/OrderSubmittedLabel""), 0)",Chrome 128.0.0.0,,,24-09-2024 13:37:52,24-09-2024 13:37:52,0.261s,PASSED
+PetStoreKeyword.logout(),Chrome 128.0.0.0,,,24-09-2024 13:37:52,24-09-2024 13:37:53,0.636s,PASSED
+BrowserFunctionKeyword.closeBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:37:53,24-09-2024 13:37:53,0.170s,PASSED
+,,,,,,,
+Test Cases/PurchaseDogs,Chrome 128.0.0.0,,,24-09-2024 13:37:53,24-09-2024 13:38:01,8.712s,PASSED
+BrowserFunctionKeyword.lauchBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:37:53,24-09-2024 13:37:55,1.965s,PASSED
+PetStoreKeyword.login(),Chrome 128.0.0.0,,,24-09-2024 13:37:55,24-09-2024 13:37:57,2.317s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/DogsLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:57,24-09-2024 13:37:58,0.507s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/BulldogLink""))",Chrome 128.0.0.0,,,24-09-2024 13:37:58,24-09-2024 13:37:58,0.492s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/MaleBullDog""))",Chrome 128.0.0.0,,,24-09-2024 13:37:58,24-09-2024 13:37:59,0.507s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ProceedToCheckout""))",Chrome 128.0.0.0,,,24-09-2024 13:37:59,24-09-2024 13:37:59,0.526s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ContinueButton""))",Chrome 128.0.0.0,,,24-09-2024 13:37:59,24-09-2024 13:38:00,0.541s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ConfirmButton""))",Chrome 128.0.0.0,,,24-09-2024 13:38:00,24-09-2024 13:38:00,0.512s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/OrderSubmittedLabel""), 0)",Chrome 128.0.0.0,,,24-09-2024 13:38:00,24-09-2024 13:38:01,0.259s,PASSED
+PetStoreKeyword.logout(),Chrome 128.0.0.0,,,24-09-2024 13:38:01,24-09-2024 13:38:01,0.678s,PASSED
+BrowserFunctionKeyword.closeBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:38:01,24-09-2024 13:38:01,0.207s,PASSED
+,,,,,,,
+Test Cases/PurchaseFish,Chrome 128.0.0.0,,,24-09-2024 13:38:01,24-09-2024 13:38:10,8.744s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,24-09-2024 13:38:02,24-09-2024 13:38:03,0.917s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Chrome 128.0.0.0,,,24-09-2024 13:38:03,24-09-2024 13:38:03,0.923s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/a_Sign In""), STOP_ON_FAILURE)",Chrome 128.0.0.0,,,24-09-2024 13:38:03,24-09-2024 13:38:04,0.507s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_Need a user name and password_username""), ""testuser"")",Chrome 128.0.0.0,,,24-09-2024 13:38:04,24-09-2024 13:38:05,0.558s,PASSED
+"setText(findTestObject(""Page_JPetStore Demo/input_New password_password""), ""testuser"")",Chrome 128.0.0.0,,,24-09-2024 13:38:05,24-09-2024 13:38:05,0.575s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/input_Need a user name and password_signon""))",Chrome 128.0.0.0,,,24-09-2024 13:38:05,24-09-2024 13:38:06,0.618s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/FishLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:06,24-09-2024 13:38:06,0.498s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/AngelFish""))",Chrome 128.0.0.0,,,24-09-2024 13:38:06,24-09-2024 13:38:07,0.472s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/LargeAngelFish""))",Chrome 128.0.0.0,,,24-09-2024 13:38:07,24-09-2024 13:38:07,0.519s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ProceedToCheckout""))",Chrome 128.0.0.0,,,24-09-2024 13:38:07,24-09-2024 13:38:08,0.465s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/ContinueButton""), 0)",Chrome 128.0.0.0,,,24-09-2024 13:38:08,24-09-2024 13:38:08,0.268s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ContinueButton""))",Chrome 128.0.0.0,,,24-09-2024 13:38:08,24-09-2024 13:38:09,0.701s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ConfirmButton""))",Chrome 128.0.0.0,,,24-09-2024 13:38:09,24-09-2024 13:38:09,0.488s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/OrderSubmittedLabel""), 0)",Chrome 128.0.0.0,,,24-09-2024 13:38:09,24-09-2024 13:38:09,0.264s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/signoutlink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:09,24-09-2024 13:38:10,0.644s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:38:10,24-09-2024 13:38:10,0.134s,PASSED
+,,,,,,,
+Test Cases/PurchaseReptiles,Chrome 128.0.0.0,,,24-09-2024 13:38:10,24-09-2024 13:38:18,8.168s,PASSED
+BrowserFunctionKeyword.lauchBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:38:10,24-09-2024 13:38:12,1.832s,PASSED
+PetStoreKeyword.login(),Chrome 128.0.0.0,,,24-09-2024 13:38:12,24-09-2024 13:38:14,2.249s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ReptilesLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:14,24-09-2024 13:38:15,0.469s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/RattleSnakeLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:15,24-09-2024 13:38:15,0.458s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/VenomlessAddtoCart""))",Chrome 128.0.0.0,,,24-09-2024 13:38:15,24-09-2024 13:38:16,0.477s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ProceedToCheckout""))",Chrome 128.0.0.0,,,24-09-2024 13:38:16,24-09-2024 13:38:16,0.485s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ContinueButton""))",Chrome 128.0.0.0,,,24-09-2024 13:38:16,24-09-2024 13:38:17,0.493s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ConfirmButton""))",Chrome 128.0.0.0,,,24-09-2024 13:38:17,24-09-2024 13:38:17,0.490s,PASSED
+"verifyElementPresent(findTestObject(""Page_JPetStore Demo/OrderSubmittedLabel""), 0)",Chrome 128.0.0.0,,,24-09-2024 13:38:17,24-09-2024 13:38:18,0.255s,PASSED
+PetStoreKeyword.logout(),Chrome 128.0.0.0,,,24-09-2024 13:38:18,24-09-2024 13:38:18,0.651s,PASSED
+BrowserFunctionKeyword.closeBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:38:18,24-09-2024 13:38:18,0.133s,PASSED
+,,,,,,,
+Test Cases/RemoveCart,Chrome 128.0.0.0,,,24-09-2024 13:38:18,24-09-2024 13:38:26,7.324s,PASSED
+BrowserFunctionKeyword.lauchBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:38:19,24-09-2024 13:38:20,1.724s,PASSED
+PetStoreKeyword.login(),Chrome 128.0.0.0,,,24-09-2024 13:38:20,24-09-2024 13:38:22,2.195s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/BirdsLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:22,24-09-2024 13:38:23,0.462s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/AmazonParrotLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:23,24-09-2024 13:38:23,0.482s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ParrotAddtoCart""))",Chrome 128.0.0.0,,,24-09-2024 13:38:23,24-09-2024 13:38:24,0.473s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/Remove""))",Chrome 128.0.0.0,,,24-09-2024 13:38:24,24-09-2024 13:38:24,0.495s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_JPetStore Demo/Remove""), 0)",Chrome 128.0.0.0,,,24-09-2024 13:38:24,24-09-2024 13:38:25,0.523s,PASSED
+PetStoreKeyword.logout(),Chrome 128.0.0.0,,,24-09-2024 13:38:25,24-09-2024 13:38:26,0.643s,PASSED
+BrowserFunctionKeyword.closeBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:38:26,24-09-2024 13:38:26,0.154s,PASSED
+,,,,,,,
+Test Cases/TotalPetPrice,Chrome 128.0.0.0,,,24-09-2024 13:38:26,24-09-2024 13:38:38,12.405s,PASSED
+BrowserFunctionKeyword.lauchBrowser(),Chrome 128.0.0.0,,,24-09-2024 13:38:26,24-09-2024 13:38:28,1.681s,PASSED
+PetStoreKeyword.login(),Chrome 128.0.0.0,,,24-09-2024 13:38:28,24-09-2024 13:38:30,2.347s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/FishLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:30,24-09-2024 13:38:30,0.474s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/AngelFish""))",Chrome 128.0.0.0,,,24-09-2024 13:38:30,24-09-2024 13:38:31,0.470s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/LargeAngelFish""))",Chrome 128.0.0.0,,,24-09-2024 13:38:31,24-09-2024 13:38:31,0.481s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/DogsLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:31,24-09-2024 13:38:32,0.477s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/BulldogLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:32,24-09-2024 13:38:32,0.468s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/MaleBullDog""))",Chrome 128.0.0.0,,,24-09-2024 13:38:32,24-09-2024 13:38:33,0.487s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/CatsLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:33,24-09-2024 13:38:33,0.479s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ManxCat""))",Chrome 128.0.0.0,,,24-09-2024 13:38:33,24-09-2024 13:38:34,0.489s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/TaillessManxAddtoCart""))",Chrome 128.0.0.0,,,24-09-2024 13:38:34,24-09-2024 13:38:34,0.504s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ReptilesLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:34,24-09-2024 13:38:35,0.522s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/RattleSnakeLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:35,24-09-2024 13:38:35,0.536s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/VenomlessAddtoCart""))",Chrome 128.0.0.0,,,24-09-2024 13:38:35,24-09-2024 13:38:36,0.535s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/BirdsLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:36,24-09-2024 13:38:36,0.539s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/AmazonParrotLink""))",Chrome 128.0.0.0,,,24-09-2024 13:38:36,24-09-2024 13:38:37,0.588s,PASSED
+"click(findTestObject(""Page_JPetStore Demo/ParrotAddtoCart""))",Chrome 128.0.0.0,,,24-09-2024 13:38:37,24-09-2024 13:38:38,0.536s,PASSED
+"testObj = findTestObject(""Object Repository/Page_JPetStore Demo/TotalCostColumn"")",Chrome 128.0.0.0,,,24-09-2024 13:38:38,24-09-2024 13:38:38,0.027s,PASSED
+"elements = findWebElements(testObj, 10)",Chrome 128.0.0.0,,,24-09-2024 13:38:38,24-09-2024 13:38:38,0.297s,PASSED
+sumOftTotalCartValue = 0,Chrome 128.0.0.0,,,24-09-2024 13:38:38,24-09-2024 13:38:38,0.000s,PASSED
+"for ([i = 0, i < elements.size(), (++i)])",Chrome 128.0.0.0,,,24-09-2024 13:38:38,24-09-2024 13:38:38,0.135s,PASSED
+logInfo(sumOftTotalCartValue.toString()),Chrome 128.0.0.0,,,24-09-2024 13:38:38,24-09-2024 13:38:38,0.015s,PASSED

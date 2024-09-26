@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AllTestCase" time="138.982" tests="11" failures="0" errors="0">
+   <testsuite name="AllTestCase" tests="11" failures="0" errors="0" time="138.982" skipped="0" timestamp="24-09-2024T13:38:44" hostname="AkashMaurya - CWERX-0668" id="Test Suites/AllTestCase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\AkashMaurya\\git\\PracticeProjectOne\\Reports\\20240924_133639\\AllTestCase\\20240924_133642"/>
+         <property name="logFiles" value="C:\\Users\\AkashMaurya\\git\\PracticeProjectOne\\Reports\\20240924_133639\\AllTestCase\\20240924_133642\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AkashMaurya - CWERX-0668"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Firefox 130.0"/>
+         <property name="hostAddress" value="192.168.0.109"/>
+         <property name="sessionId" value="8db0d093-5938-4c7c-bea6-751be67be2de"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/LaunchPetStorePage" time="11.935" classname="Test Cases/LaunchPetStorePage" status="PASSED">
+         <system-out><![CDATA[24-09-2024T13:38:44 - [TEST_CASE][PASSED] - Test Cases/LaunchPetStorePage: Test Cases/LaunchPetStorePage
+
+24-09-2024T13:38:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-09-2024T13:38:44 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+24-09-2024T13:38:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T13:38:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T13:38:48 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Catalog.action"): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:38:54 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:38:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_JPetStore Demo/a_Sign In"), 0): Object 'Object Repository/Page_JPetStore Demo/a_Sign In' is present
+
+24-09-2024T13:38:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T13:38:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JPetStore Demo/a_Sign In' is present
+
+24-09-2024T13:38:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-09-2024T13:38:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PetStoreRegistration" time="10.347" classname="Test Cases/PetStoreRegistration" status="PASSED">
+         <system-out><![CDATA[24-09-2024T13:38:56 - [TEST_CASE][PASSED] - Test Cases/PetStoreRegistration: Test Cases/PetStoreRegistration
+
+24-09-2024T13:38:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-09-2024T13:38:56 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+24-09-2024T13:38:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T13:38:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T13:38:59 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Catalog.action"): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:39:04 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:39:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:39:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/a_Register Now")): Object: 'Object Repository/Page_JPetStore Demo/a_Register Now' is clicked on
+
+24-09-2024T13:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Register Now' is clicked on
+
+24-09-2024T13:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_User ID_username"), "petstoreuser"): Text 'petstoreuser' is set on object 'Object Repository/Page_JPetStore Demo/input_User ID_username'
+
+24-09-2024T13:39:05 - [MESSAGE][PASSED] - Text 'petstoreuser' is set on object 'Object Repository/Page_JPetStore Demo/input_User ID_username'
+
+24-09-2024T13:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_New password_password"), "petstoreuser"): Text 'petstoreuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:39:05 - [MESSAGE][PASSED] - Text 'petstoreuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_Repeat password_repeatedPassword"), "petstoreuser"): Text 'petstoreuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Repeat password_repeatedPassword'
+
+24-09-2024T13:39:05 - [MESSAGE][PASSED] - Text 'petstoreuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Repeat password_repeatedPassword'
+
+24-09-2024T13:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_First name_account.firstName"), "petstoreuser"): Text 'petstoreuser' is set on object 'Object Repository/Page_JPetStore Demo/input_First name_account.firstName'
+
+24-09-2024T13:39:05 - [MESSAGE][PASSED] - Text 'petstoreuser' is set on object 'Object Repository/Page_JPetStore Demo/input_First name_account.firstName'
+
+24-09-2024T13:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_Last name_account.lastName"), "petstoreuser"): Text 'petstoreuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Last name_account.lastName'
+
+24-09-2024T13:39:05 - [MESSAGE][PASSED] - Text 'petstoreuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Last name_account.lastName'
+
+24-09-2024T13:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_Email_account.email"), "petstoreuser@gmail.com"): Text 'petstoreuser@gmail.com' is set on object 'Object Repository/Page_JPetStore Demo/input_Email_account.email'
+
+24-09-2024T13:39:05 - [MESSAGE][PASSED] - Text 'petstoreuser@gmail.com' is set on object 'Object Repository/Page_JPetStore Demo/input_Email_account.email'
+
+24-09-2024T13:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_Phone_account.phone"), "1233214567"): Text '1233214567' is set on object 'Object Repository/Page_JPetStore Demo/input_Phone_account.phone'
+
+24-09-2024T13:39:05 - [MESSAGE][PASSED] - Text '1233214567' is set on object 'Object Repository/Page_JPetStore Demo/input_Phone_account.phone'
+
+24-09-2024T13:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_Address 1_account.address1"), "Address1"): Text 'Address1' is set on object 'Object Repository/Page_JPetStore Demo/input_Address 1_account.address1'
+
+24-09-2024T13:39:05 - [MESSAGE][PASSED] - Text 'Address1' is set on object 'Object Repository/Page_JPetStore Demo/input_Address 1_account.address1'
+
+24-09-2024T13:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_Address 2_account.address2"), "Address2"): Text 'Address2' is set on object 'Object Repository/Page_JPetStore Demo/input_Address 2_account.address2'
+
+24-09-2024T13:39:05 - [MESSAGE][PASSED] - Text 'Address2' is set on object 'Object Repository/Page_JPetStore Demo/input_Address 2_account.address2'
+
+24-09-2024T13:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_City_account.city"), "Mumbai"): Text 'Mumbai' is set on object 'Object Repository/Page_JPetStore Demo/input_City_account.city'
+
+24-09-2024T13:39:06 - [MESSAGE][PASSED] - Text 'Mumbai' is set on object 'Object Repository/Page_JPetStore Demo/input_City_account.city'
+
+24-09-2024T13:39:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_State_account.state"), "Maha"): Text 'Maha' is set on object 'Object Repository/Page_JPetStore Demo/input_State_account.state'
+
+24-09-2024T13:39:06 - [MESSAGE][PASSED] - Text 'Maha' is set on object 'Object Repository/Page_JPetStore Demo/input_State_account.state'
+
+24-09-2024T13:39:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_Zip_account.zip"), "429312"): Text '429312' is set on object 'Object Repository/Page_JPetStore Demo/input_Zip_account.zip'
+
+24-09-2024T13:39:06 - [MESSAGE][PASSED] - Text '429312' is set on object 'Object Repository/Page_JPetStore Demo/input_Zip_account.zip'
+
+24-09-2024T13:39:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_Country_account.country"), "India"): Text 'India' is set on object 'Object Repository/Page_JPetStore Demo/input_Country_account.country'
+
+24-09-2024T13:39:06 - [MESSAGE][PASSED] - Text 'India' is set on object 'Object Repository/Page_JPetStore Demo/input_Country_account.country'
+
+24-09-2024T13:39:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/input_Enable MyBanner_newAccount")): Object: 'Object Repository/Page_JPetStore Demo/input_Enable MyBanner_newAccount' is clicked on
+
+24-09-2024T13:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Enable MyBanner_newAccount' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PetStoreSignIn" time="10.589" classname="Test Cases/PetStoreSignIn" status="PASSED">
+         <system-out><![CDATA[24-09-2024T13:39:06 - [TEST_CASE][PASSED] - Test Cases/PetStoreSignIn: Test Cases/PetStoreSignIn
+
+24-09-2024T13:39:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-09-2024T13:39:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-09-2024T13:39:07 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+24-09-2024T13:39:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T13:39:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T13:39:10 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Catalog.action"): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:39:15 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:39:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_JPetStore Demo/a_Sign In"), 1): Object 'Object Repository/Page_JPetStore Demo/a_Sign In' is present
+
+24-09-2024T13:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JPetStore Demo/a_Sign In' is present
+
+24-09-2024T13:39:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/a_Sign In")): Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:39:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_Need a user name and password_username"), "testuser"): Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-09-2024T13:39:16 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-09-2024T13:39:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_New password_password"), "testuser"): Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:39:16 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-09-2024T13:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-09-2024T13:39:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_JPetStore Demo/signoutlink"), 1): Object 'Object Repository/Page_JPetStore Demo/signoutlink' is present
+
+24-09-2024T13:39:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JPetStore Demo/signoutlink' is present
+
+24-09-2024T13:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/signoutlink")): Object: 'Object Repository/Page_JPetStore Demo/signoutlink' is clicked on
+
+24-09-2024T13:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/signoutlink' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseAllPet" time="15.799" classname="Test Cases/PurchaseAllPet" status="PASSED">
+         <system-out><![CDATA[24-09-2024T13:39:17 - [TEST_CASE][PASSED] - Test Cases/PurchaseAllPet: Test Cases/PurchaseAllPet
+
+24-09-2024T13:39:17 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.lauchBrowser(): BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:39:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-09-2024T13:39:18 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+24-09-2024T13:39:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T13:39:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T13:39:26 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:39:26 - [MESSAGE][PASSED] - BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:39:26 - [TEST_STEP][PASSED] - PetStoreKeyword.login(): PetStoreKeyword.login is PASSED
+
+24-09-2024T13:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:39:26 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-09-2024T13:39:27 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-09-2024T13:39:27 - [MESSAGE][PASSED] - PetStoreKeyword.login is PASSED
+
+24-09-2024T13:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/FishLink")): Object: 'Object Repository/Page_JPetStore Demo/FishLink' is clicked on
+
+24-09-2024T13:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/FishLink' is clicked on
+
+24-09-2024T13:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/AngelFish")): Object: 'Object Repository/Page_JPetStore Demo/AngelFish' is clicked on
+
+24-09-2024T13:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/AngelFish' is clicked on
+
+24-09-2024T13:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/LargeAngelFish")): Object: 'Object Repository/Page_JPetStore Demo/LargeAngelFish' is clicked on
+
+24-09-2024T13:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/LargeAngelFish' is clicked on
+
+24-09-2024T13:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/DogsLink")): Object: 'Object Repository/Page_JPetStore Demo/DogsLink' is clicked on
+
+24-09-2024T13:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/DogsLink' is clicked on
+
+24-09-2024T13:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/BulldogLink")): Object: 'Object Repository/Page_JPetStore Demo/BulldogLink' is clicked on
+
+24-09-2024T13:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/BulldogLink' is clicked on
+
+24-09-2024T13:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/MaleBullDog")): Object: 'Object Repository/Page_JPetStore Demo/MaleBullDog' is clicked on
+
+24-09-2024T13:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/MaleBullDog' is clicked on
+
+24-09-2024T13:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/CatsLink")): Object: 'Object Repository/Page_JPetStore Demo/CatsLink' is clicked on
+
+24-09-2024T13:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/CatsLink' is clicked on
+
+24-09-2024T13:39:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ManxCat")): Object: 'Object Repository/Page_JPetStore Demo/ManxCat' is clicked on
+
+24-09-2024T13:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ManxCat' is clicked on
+
+24-09-2024T13:39:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/TaillessManxAddtoCart")): Object: 'Object Repository/Page_JPetStore Demo/TaillessManxAddtoCart' is clicked on
+
+24-09-2024T13:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/TaillessManxAddtoCart' is clicked on
+
+24-09-2024T13:39:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ReptilesLink")): Object: 'Object Repository/Page_JPetStore Demo/ReptilesLink' is clicked on
+
+24-09-2024T13:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ReptilesLink' is clicked on
+
+24-09-2024T13:39:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/RattleSnakeLink")): Object: 'Object Repository/Page_JPetStore Demo/RattleSnakeLink' is clicked on
+
+24-09-2024T13:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/RattleSnakeLink' is clicked on
+
+24-09-2024T13:39:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/VenomlessAddtoCart")): Object: 'Object Repository/Page_JPetStore Demo/VenomlessAddtoCart' is clicked on
+
+24-09-2024T13:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/VenomlessAddtoCart' is clicked on
+
+24-09-2024T13:39:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/BirdsLink")): Object: 'Object Repository/Page_JPetStore Demo/BirdsLink' is clicked on
+
+24-09-2024T13:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/BirdsLink' is clicked on
+
+24-09-2024T13:39:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/AmazonParrotLink")): Object: 'Object Repository/Page_JPetStore Demo/AmazonParrotLink' is clicked on
+
+24-09-2024T13:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/AmazonParrotLink' is clicked on
+
+24-09-2024T13:39:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ParrotAddtoCart")): Object: 'Object Repository/Page_JPetStore Demo/ParrotAddtoCart' is clicked on
+
+24-09-2024T13:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ParrotAddtoCart' is clicked on
+
+24-09-2024T13:39:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ProceedToCheckout")): Object: 'Object Repository/Page_JPetStore Demo/ProceedToCheckout' is clicked on
+
+24-09-2024T13:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ProceedToCheckout' is clicked on
+
+24-09-2024T13:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ContinueButton")): Object: 'Object Repository/Page_JPetStore Demo/ContinueButton' is clicked on
+
+24-09-2024T13:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ContinueButton' is clicked on
+
+24-09-2024T13:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ConfirmButton")): Object: 'Object Repository/Page_JPetStore Demo/ConfirmButton' is clicked on
+
+24-09-2024T13:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ConfirmButton' is clicked on
+
+24-09-2024T13:39:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_JPetStore Demo/OrderSubmittedLabel"), 0): Object 'Object Repository/Page_JPetStore Demo/OrderSubmittedLabel' is present
+
+24-09-2024T13:39:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T13:39:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JPetStore Demo/OrderSubmittedLabel' is present
+
+24-09-2024T13:39:31 - [TEST_STEP][PASSED] - PetStoreKeyword.logout(): PetStoreKeyword.logout is PASSED
+
+24-09-2024T13:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/signoutlink' is clicked on
+
+24-09-2024T13:39:31 - [MESSAGE][PASSED] - PetStoreKeyword.logout is PASSED
+
+24-09-2024T13:39:31 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.closeBrowser(): BrowserFunctionKeyword.closeBrowser is PASSED
+
+24-09-2024T13:39:33 - [MESSAGE][PASSED] - Browser is closed
+
+24-09-2024T13:39:33 - [MESSAGE][PASSED] - BrowserFunctionKeyword.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseBirds" time="11.833" classname="Test Cases/PurchaseBirds" status="PASSED">
+         <system-out><![CDATA[24-09-2024T13:39:33 - [TEST_CASE][PASSED] - Test Cases/PurchaseBirds: Test Cases/PurchaseBirds
+
+24-09-2024T13:39:33 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.lauchBrowser(): BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:39:33 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+24-09-2024T13:39:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T13:39:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T13:39:41 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:39:41 - [MESSAGE][PASSED] - BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:39:41 - [TEST_STEP][PASSED] - PetStoreKeyword.login(): PetStoreKeyword.login is PASSED
+
+24-09-2024T13:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:39:41 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-09-2024T13:39:41 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-09-2024T13:39:41 - [MESSAGE][PASSED] - PetStoreKeyword.login is PASSED
+
+24-09-2024T13:39:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/BirdsLink")): Object: 'Object Repository/Page_JPetStore Demo/BirdsLink' is clicked on
+
+24-09-2024T13:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/BirdsLink' is clicked on
+
+24-09-2024T13:39:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/AmazonParrotLink")): Object: 'Object Repository/Page_JPetStore Demo/AmazonParrotLink' is clicked on
+
+24-09-2024T13:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/AmazonParrotLink' is clicked on
+
+24-09-2024T13:39:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ParrotAddtoCart")): Object: 'Object Repository/Page_JPetStore Demo/ParrotAddtoCart' is clicked on
+
+24-09-2024T13:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ParrotAddtoCart' is clicked on
+
+24-09-2024T13:39:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ProceedToCheckout")): Object: 'Object Repository/Page_JPetStore Demo/ProceedToCheckout' is clicked on
+
+24-09-2024T13:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ProceedToCheckout' is clicked on
+
+24-09-2024T13:39:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ContinueButton")): Object: 'Object Repository/Page_JPetStore Demo/ContinueButton' is clicked on
+
+24-09-2024T13:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ContinueButton' is clicked on
+
+24-09-2024T13:39:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ConfirmButton")): Object: 'Object Repository/Page_JPetStore Demo/ConfirmButton' is clicked on
+
+24-09-2024T13:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ConfirmButton' is clicked on
+
+24-09-2024T13:39:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_JPetStore Demo/OrderSubmittedLabel"), 0): Object 'Object Repository/Page_JPetStore Demo/OrderSubmittedLabel' is present
+
+24-09-2024T13:39:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T13:39:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JPetStore Demo/OrderSubmittedLabel' is present
+
+24-09-2024T13:39:43 - [TEST_STEP][PASSED] - PetStoreKeyword.logout(): PetStoreKeyword.logout is PASSED
+
+24-09-2024T13:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/signoutlink' is clicked on
+
+24-09-2024T13:39:43 - [MESSAGE][PASSED] - PetStoreKeyword.logout is PASSED
+
+24-09-2024T13:39:43 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.closeBrowser(): BrowserFunctionKeyword.closeBrowser is PASSED
+
+24-09-2024T13:39:44 - [MESSAGE][PASSED] - Browser is closed
+
+24-09-2024T13:39:44 - [MESSAGE][PASSED] - BrowserFunctionKeyword.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseCats" time="13.455" classname="Test Cases/PurchaseCats" status="PASSED">
+         <system-out><![CDATA[24-09-2024T13:39:44 - [TEST_CASE][PASSED] - Test Cases/PurchaseCats: Test Cases/PurchaseCats
+
+24-09-2024T13:39:45 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.lauchBrowser(): BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:39:45 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+24-09-2024T13:39:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T13:39:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T13:39:54 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:39:54 - [MESSAGE][PASSED] - BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:39:54 - [TEST_STEP][PASSED] - PetStoreKeyword.login(): PetStoreKeyword.login is PASSED
+
+24-09-2024T13:39:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:39:55 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-09-2024T13:39:55 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:39:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-09-2024T13:39:55 - [MESSAGE][PASSED] - PetStoreKeyword.login is PASSED
+
+24-09-2024T13:39:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/CatsLink")): Object: 'Object Repository/Page_JPetStore Demo/CatsLink' is clicked on
+
+24-09-2024T13:39:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/CatsLink' is clicked on
+
+24-09-2024T13:39:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ManxCat")): Object: 'Object Repository/Page_JPetStore Demo/ManxCat' is clicked on
+
+24-09-2024T13:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ManxCat' is clicked on
+
+24-09-2024T13:39:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/TaillessManxAddtoCart")): Object: 'Object Repository/Page_JPetStore Demo/TaillessManxAddtoCart' is clicked on
+
+24-09-2024T13:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/TaillessManxAddtoCart' is clicked on
+
+24-09-2024T13:39:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ProceedToCheckout")): Object: 'Object Repository/Page_JPetStore Demo/ProceedToCheckout' is clicked on
+
+24-09-2024T13:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ProceedToCheckout' is clicked on
+
+24-09-2024T13:39:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ContinueButton")): Object: 'Object Repository/Page_JPetStore Demo/ContinueButton' is clicked on
+
+24-09-2024T13:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ContinueButton' is clicked on
+
+24-09-2024T13:39:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ConfirmButton")): Object: 'Object Repository/Page_JPetStore Demo/ConfirmButton' is clicked on
+
+24-09-2024T13:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ConfirmButton' is clicked on
+
+24-09-2024T13:39:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_JPetStore Demo/OrderSubmittedLabel"), 0): Object 'Object Repository/Page_JPetStore Demo/OrderSubmittedLabel' is present
+
+24-09-2024T13:39:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T13:39:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JPetStore Demo/OrderSubmittedLabel' is present
+
+24-09-2024T13:39:56 - [TEST_STEP][PASSED] - PetStoreKeyword.logout(): PetStoreKeyword.logout is PASSED
+
+24-09-2024T13:39:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/signoutlink' is clicked on
+
+24-09-2024T13:39:57 - [MESSAGE][PASSED] - PetStoreKeyword.logout is PASSED
+
+24-09-2024T13:39:57 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.closeBrowser(): BrowserFunctionKeyword.closeBrowser is PASSED
+
+24-09-2024T13:39:58 - [MESSAGE][PASSED] - Browser is closed
+
+24-09-2024T13:39:58 - [MESSAGE][PASSED] - BrowserFunctionKeyword.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseDogs" time="13.557" classname="Test Cases/PurchaseDogs" status="PASSED">
+         <system-out><![CDATA[24-09-2024T13:39:58 - [TEST_CASE][PASSED] - Test Cases/PurchaseDogs: Test Cases/PurchaseDogs
+
+24-09-2024T13:39:58 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.lauchBrowser(): BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:39:58 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+24-09-2024T13:39:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T13:40:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T13:40:08 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:40:08 - [MESSAGE][PASSED] - BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:40:08 - [TEST_STEP][PASSED] - PetStoreKeyword.login(): PetStoreKeyword.login is PASSED
+
+24-09-2024T13:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:40:08 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-09-2024T13:40:08 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-09-2024T13:40:08 - [MESSAGE][PASSED] - PetStoreKeyword.login is PASSED
+
+24-09-2024T13:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/DogsLink")): Object: 'Object Repository/Page_JPetStore Demo/DogsLink' is clicked on
+
+24-09-2024T13:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/DogsLink' is clicked on
+
+24-09-2024T13:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/BulldogLink")): Object: 'Object Repository/Page_JPetStore Demo/BulldogLink' is clicked on
+
+24-09-2024T13:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/BulldogLink' is clicked on
+
+24-09-2024T13:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/MaleBullDog")): Object: 'Object Repository/Page_JPetStore Demo/MaleBullDog' is clicked on
+
+24-09-2024T13:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/MaleBullDog' is clicked on
+
+24-09-2024T13:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ProceedToCheckout")): Object: 'Object Repository/Page_JPetStore Demo/ProceedToCheckout' is clicked on
+
+24-09-2024T13:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ProceedToCheckout' is clicked on
+
+24-09-2024T13:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ContinueButton")): Object: 'Object Repository/Page_JPetStore Demo/ContinueButton' is clicked on
+
+24-09-2024T13:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ContinueButton' is clicked on
+
+24-09-2024T13:40:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ConfirmButton")): Object: 'Object Repository/Page_JPetStore Demo/ConfirmButton' is clicked on
+
+24-09-2024T13:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ConfirmButton' is clicked on
+
+24-09-2024T13:40:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_JPetStore Demo/OrderSubmittedLabel"), 0): Object 'Object Repository/Page_JPetStore Demo/OrderSubmittedLabel' is present
+
+24-09-2024T13:40:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T13:40:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JPetStore Demo/OrderSubmittedLabel' is present
+
+24-09-2024T13:40:10 - [TEST_STEP][PASSED] - PetStoreKeyword.logout(): PetStoreKeyword.logout is PASSED
+
+24-09-2024T13:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/signoutlink' is clicked on
+
+24-09-2024T13:40:10 - [MESSAGE][PASSED] - PetStoreKeyword.logout is PASSED
+
+24-09-2024T13:40:10 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.closeBrowser(): BrowserFunctionKeyword.closeBrowser is PASSED
+
+24-09-2024T13:40:11 - [MESSAGE][PASSED] - Browser is closed
+
+24-09-2024T13:40:11 - [MESSAGE][PASSED] - BrowserFunctionKeyword.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseFish" time="11.635" classname="Test Cases/PurchaseFish" status="PASSED">
+         <system-out><![CDATA[24-09-2024T13:40:11 - [TEST_CASE][PASSED] - Test Cases/PurchaseFish: Test Cases/PurchaseFish
+
+24-09-2024T13:40:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-09-2024T13:40:12 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+24-09-2024T13:40:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T13:40:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T13:40:14 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/actions/Catalog.action"): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:40:19 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/a_Sign In"), STOP_ON_FAILURE): Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:40:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_Need a user name and password_username"), "testuser"): Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-09-2024T13:40:20 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-09-2024T13:40:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JPetStore Demo/input_New password_password"), "testuser"): Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:40:20 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/input_Need a user name and password_signon")): Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-09-2024T13:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-09-2024T13:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/FishLink")): Object: 'Object Repository/Page_JPetStore Demo/FishLink' is clicked on
+
+24-09-2024T13:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/FishLink' is clicked on
+
+24-09-2024T13:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/AngelFish")): Object: 'Object Repository/Page_JPetStore Demo/AngelFish' is clicked on
+
+24-09-2024T13:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/AngelFish' is clicked on
+
+24-09-2024T13:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/LargeAngelFish")): Object: 'Object Repository/Page_JPetStore Demo/LargeAngelFish' is clicked on
+
+24-09-2024T13:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/LargeAngelFish' is clicked on
+
+24-09-2024T13:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ProceedToCheckout")): Object: 'Object Repository/Page_JPetStore Demo/ProceedToCheckout' is clicked on
+
+24-09-2024T13:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ProceedToCheckout' is clicked on
+
+24-09-2024T13:40:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_JPetStore Demo/ContinueButton"), 0): Object 'Object Repository/Page_JPetStore Demo/ContinueButton' is present
+
+24-09-2024T13:40:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T13:40:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JPetStore Demo/ContinueButton' is present
+
+24-09-2024T13:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ContinueButton")): Object: 'Object Repository/Page_JPetStore Demo/ContinueButton' is clicked on
+
+24-09-2024T13:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ContinueButton' is clicked on
+
+24-09-2024T13:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ConfirmButton")): Object: 'Object Repository/Page_JPetStore Demo/ConfirmButton' is clicked on
+
+24-09-2024T13:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ConfirmButton' is clicked on
+
+24-09-2024T13:40:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_JPetStore Demo/OrderSubmittedLabel"), 0): Object 'Object Repository/Page_JPetStore Demo/OrderSubmittedLabel' is present
+
+24-09-2024T13:40:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T13:40:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JPetStore Demo/OrderSubmittedLabel' is present
+
+24-09-2024T13:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/signoutlink")): Object: 'Object Repository/Page_JPetStore Demo/signoutlink' is clicked on
+
+24-09-2024T13:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/signoutlink' is clicked on
+
+24-09-2024T13:40:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-09-2024T13:40:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PurchaseReptiles" time="13.398" classname="Test Cases/PurchaseReptiles" status="PASSED">
+         <system-out><![CDATA[24-09-2024T13:40:23 - [TEST_CASE][PASSED] - Test Cases/PurchaseReptiles: Test Cases/PurchaseReptiles
+
+24-09-2024T13:40:23 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.lauchBrowser(): BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:40:23 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+24-09-2024T13:40:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T13:40:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T13:40:33 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:40:33 - [MESSAGE][PASSED] - BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:40:33 - [TEST_STEP][PASSED] - PetStoreKeyword.login(): PetStoreKeyword.login is PASSED
+
+24-09-2024T13:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:40:33 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-09-2024T13:40:33 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-09-2024T13:40:34 - [MESSAGE][PASSED] - PetStoreKeyword.login is PASSED
+
+24-09-2024T13:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ReptilesLink")): Object: 'Object Repository/Page_JPetStore Demo/ReptilesLink' is clicked on
+
+24-09-2024T13:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ReptilesLink' is clicked on
+
+24-09-2024T13:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/RattleSnakeLink")): Object: 'Object Repository/Page_JPetStore Demo/RattleSnakeLink' is clicked on
+
+24-09-2024T13:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/RattleSnakeLink' is clicked on
+
+24-09-2024T13:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/VenomlessAddtoCart")): Object: 'Object Repository/Page_JPetStore Demo/VenomlessAddtoCart' is clicked on
+
+24-09-2024T13:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/VenomlessAddtoCart' is clicked on
+
+24-09-2024T13:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ProceedToCheckout")): Object: 'Object Repository/Page_JPetStore Demo/ProceedToCheckout' is clicked on
+
+24-09-2024T13:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ProceedToCheckout' is clicked on
+
+24-09-2024T13:40:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ContinueButton")): Object: 'Object Repository/Page_JPetStore Demo/ContinueButton' is clicked on
+
+24-09-2024T13:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ContinueButton' is clicked on
+
+24-09-2024T13:40:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ConfirmButton")): Object: 'Object Repository/Page_JPetStore Demo/ConfirmButton' is clicked on
+
+24-09-2024T13:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ConfirmButton' is clicked on
+
+24-09-2024T13:40:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_JPetStore Demo/OrderSubmittedLabel"), 0): Object 'Object Repository/Page_JPetStore Demo/OrderSubmittedLabel' is present
+
+24-09-2024T13:40:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T13:40:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JPetStore Demo/OrderSubmittedLabel' is present
+
+24-09-2024T13:40:35 - [TEST_STEP][PASSED] - PetStoreKeyword.logout(): PetStoreKeyword.logout is PASSED
+
+24-09-2024T13:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/signoutlink' is clicked on
+
+24-09-2024T13:40:35 - [MESSAGE][PASSED] - PetStoreKeyword.logout is PASSED
+
+24-09-2024T13:40:35 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.closeBrowser(): BrowserFunctionKeyword.closeBrowser is PASSED
+
+24-09-2024T13:40:36 - [MESSAGE][PASSED] - Browser is closed
+
+24-09-2024T13:40:36 - [MESSAGE][PASSED] - BrowserFunctionKeyword.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RemoveCart" time="11.432" classname="Test Cases/RemoveCart" status="PASSED">
+         <system-out><![CDATA[24-09-2024T13:40:36 - [TEST_CASE][PASSED] - Test Cases/RemoveCart: Test Cases/RemoveCart
+
+24-09-2024T13:40:37 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.lauchBrowser(): BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:40:37 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+24-09-2024T13:40:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T13:40:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T13:40:44 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:40:44 - [MESSAGE][PASSED] - BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:40:44 - [TEST_STEP][PASSED] - PetStoreKeyword.login(): PetStoreKeyword.login is PASSED
+
+24-09-2024T13:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:40:45 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-09-2024T13:40:45 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-09-2024T13:40:45 - [MESSAGE][PASSED] - PetStoreKeyword.login is PASSED
+
+24-09-2024T13:40:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/BirdsLink")): Object: 'Object Repository/Page_JPetStore Demo/BirdsLink' is clicked on
+
+24-09-2024T13:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/BirdsLink' is clicked on
+
+24-09-2024T13:40:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/AmazonParrotLink")): Object: 'Object Repository/Page_JPetStore Demo/AmazonParrotLink' is clicked on
+
+24-09-2024T13:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/AmazonParrotLink' is clicked on
+
+24-09-2024T13:40:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ParrotAddtoCart")): Object: 'Object Repository/Page_JPetStore Demo/ParrotAddtoCart' is clicked on
+
+24-09-2024T13:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ParrotAddtoCart' is clicked on
+
+24-09-2024T13:40:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/Remove")): Object: 'Object Repository/Page_JPetStore Demo/Remove' is clicked on
+
+24-09-2024T13:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/Remove' is clicked on
+
+24-09-2024T13:40:46 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_JPetStore Demo/Remove"), 0): Web element with id: 'Object Repository/Page_JPetStore Demo/Remove' located by 'By.xpath: //*[contains(text() , 'Remove')]' is not present after '30' second(s)
+
+24-09-2024T13:40:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T13:40:46 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_JPetStore Demo/Remove' located by 'By.xpath: //*[contains(text() , 'Remove')]' is not present after '30' second(s)
+
+24-09-2024T13:40:46 - [TEST_STEP][PASSED] - PetStoreKeyword.logout(): PetStoreKeyword.logout is PASSED
+
+24-09-2024T13:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/signoutlink' is clicked on
+
+24-09-2024T13:40:47 - [MESSAGE][PASSED] - PetStoreKeyword.logout is PASSED
+
+24-09-2024T13:40:47 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.closeBrowser(): BrowserFunctionKeyword.closeBrowser is PASSED
+
+24-09-2024T13:40:48 - [MESSAGE][PASSED] - Browser is closed
+
+24-09-2024T13:40:48 - [MESSAGE][PASSED] - BrowserFunctionKeyword.closeBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TotalPetPrice" time="14.814" classname="Test Cases/TotalPetPrice" status="PASSED">
+         <system-out><![CDATA[24-09-2024T13:40:48 - [TEST_CASE][PASSED] - Test Cases/TotalPetPrice: Test Cases/TotalPetPrice
+
+24-09-2024T13:40:48 - [TEST_STEP][PASSED] - BrowserFunctionKeyword.lauchBrowser(): BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:40:48 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+24-09-2024T13:40:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T13:40:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T13:40:58 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+24-09-2024T13:40:58 - [MESSAGE][PASSED] - BrowserFunctionKeyword.lauchBrowser is PASSED
+
+24-09-2024T13:40:58 - [TEST_STEP][PASSED] - PetStoreKeyword.login(): PetStoreKeyword.login is PASSED
+
+24-09-2024T13:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/a_Sign In' is clicked on
+
+24-09-2024T13:40:59 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_username'
+
+24-09-2024T13:40:59 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Page_JPetStore Demo/input_New password_password'
+
+24-09-2024T13:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/input_Need a user name and password_signon' is clicked on
+
+24-09-2024T13:40:59 - [MESSAGE][PASSED] - PetStoreKeyword.login is PASSED
+
+24-09-2024T13:40:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/FishLink")): Object: 'Object Repository/Page_JPetStore Demo/FishLink' is clicked on
+
+24-09-2024T13:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/FishLink' is clicked on
+
+24-09-2024T13:40:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/AngelFish")): Object: 'Object Repository/Page_JPetStore Demo/AngelFish' is clicked on
+
+24-09-2024T13:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/AngelFish' is clicked on
+
+24-09-2024T13:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/LargeAngelFish")): Object: 'Object Repository/Page_JPetStore Demo/LargeAngelFish' is clicked on
+
+24-09-2024T13:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/LargeAngelFish' is clicked on
+
+24-09-2024T13:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/DogsLink")): Object: 'Object Repository/Page_JPetStore Demo/DogsLink' is clicked on
+
+24-09-2024T13:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/DogsLink' is clicked on
+
+24-09-2024T13:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/BulldogLink")): Object: 'Object Repository/Page_JPetStore Demo/BulldogLink' is clicked on
+
+24-09-2024T13:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/BulldogLink' is clicked on
+
+24-09-2024T13:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/MaleBullDog")): Object: 'Object Repository/Page_JPetStore Demo/MaleBullDog' is clicked on
+
+24-09-2024T13:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/MaleBullDog' is clicked on
+
+24-09-2024T13:41:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/CatsLink")): Object: 'Object Repository/Page_JPetStore Demo/CatsLink' is clicked on
+
+24-09-2024T13:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/CatsLink' is clicked on
+
+24-09-2024T13:41:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ManxCat")): Object: 'Object Repository/Page_JPetStore Demo/ManxCat' is clicked on
+
+24-09-2024T13:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ManxCat' is clicked on
+
+24-09-2024T13:41:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/TaillessManxAddtoCart")): Object: 'Object Repository/Page_JPetStore Demo/TaillessManxAddtoCart' is clicked on
+
+24-09-2024T13:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/TaillessManxAddtoCart' is clicked on
+
+24-09-2024T13:41:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ReptilesLink")): Object: 'Object Repository/Page_JPetStore Demo/ReptilesLink' is clicked on
+
+24-09-2024T13:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ReptilesLink' is clicked on
+
+24-09-2024T13:41:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/RattleSnakeLink")): Object: 'Object Repository/Page_JPetStore Demo/RattleSnakeLink' is clicked on
+
+24-09-2024T13:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/RattleSnakeLink' is clicked on
+
+24-09-2024T13:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/VenomlessAddtoCart")): Object: 'Object Repository/Page_JPetStore Demo/VenomlessAddtoCart' is clicked on
+
+24-09-2024T13:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/VenomlessAddtoCart' is clicked on
+
+24-09-2024T13:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/BirdsLink")): Object: 'Object Repository/Page_JPetStore Demo/BirdsLink' is clicked on
+
+24-09-2024T13:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/BirdsLink' is clicked on
+
+24-09-2024T13:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/AmazonParrotLink")): Object: 'Object Repository/Page_JPetStore Demo/AmazonParrotLink' is clicked on
+
+24-09-2024T13:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/AmazonParrotLink' is clicked on
+
+24-09-2024T13:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_JPetStore Demo/ParrotAddtoCart")): Object: 'Object Repository/Page_JPetStore Demo/ParrotAddtoCart' is clicked on
+
+24-09-2024T13:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JPetStore Demo/ParrotAddtoCart' is clicked on
+
+24-09-2024T13:41:02 - [TEST_STEP][PASSED] - testObj = findTestObject("Object Repository/Page_JPetStore Demo/TotalCostColumn"): null
+
+24-09-2024T13:41:02 - [TEST_STEP][PASSED] - elements = findWebElements(testObj, 10): Found web elements by test object Object Repository/Page_JPetStore Demo/TotalCostColumn
+
+24-09-2024T13:41:03 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_JPetStore Demo/TotalCostColumn
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - sumOftTotalCartValue = 0: null
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - for ([i = 0, i < elements.size(), (++i)]): null
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - amount = minus("$").toFloat(): null
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - sumOftTotalCartValue = amount + sumOftTotalCartValue: null
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - amount = minus("$").toFloat(): null
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - sumOftTotalCartValue = amount + sumOftTotalCartValue: null
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - amount = minus("$").toFloat(): null
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - sumOftTotalCartValue = amount + sumOftTotalCartValue: null
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - amount = minus("$").toFloat(): null
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - sumOftTotalCartValue = amount + sumOftTotalCartValue: null
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - amount = minus("$").toFloat(): null
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - sumOftTotalCartValue = amount + sumOftTotalCartValue: null
+
+24-09-2024T13:41:03 - [TEST_STEP][PASSED] - logInfo(sumOftTotalCartValue.toString()): 305.5
+
+24-09-2024T13:41:03 - [MESSAGE][INFO] - 305.5]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-09-2024T13:38:44 - [TEST_SUITE][PASSED] - AllTestCase: Test Cases/TotalPetPrice]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

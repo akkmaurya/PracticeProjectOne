@@ -28,9 +28,9 @@ public class PetStoreKeyword {
 
 		WebUI.click(findTestObject('Page_JPetStore Demo/a_Sign In'), FailureHandling.STOP_ON_FAILURE)
 
-		WebUI.setText(findTestObject('Page_JPetStore Demo/input_Need a user name and password_username'), 'testuser')
+		WebUI.setText(findTestObject('Page_JPetStore Demo/input_Need a user name and password_username'), 'petstoreuser')
 
-		WebUI.setText(findTestObject('Page_JPetStore Demo/input_New password_password'), 'testuser')
+		WebUI.setText(findTestObject('Page_JPetStore Demo/input_New password_password'), 'petstoreuser')
 
 		WebUI.click(findTestObject('Page_JPetStore Demo/input_Need a user name and password_signon'))
 	}

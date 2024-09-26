@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddFishtoCartandLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e29a2a7a-cdef-4115-9a6c-ca0b4ebf9abf</testCaseGuid>
+</TestCaseEntity>

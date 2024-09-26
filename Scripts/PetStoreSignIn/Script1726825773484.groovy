@@ -41,10 +41,10 @@ WebUI.verifyElementPresent(findTestObject('Page_JPetStore Demo/a_Sign In'), 1)
 WebUI.click(findTestObject('Page_JPetStore Demo/a_Sign In'))
 
 // 5. Enter username
-WebUI.setText(findTestObject('Page_JPetStore Demo/input_Need a user name and password_username'), 'testuser')
+WebUI.setText(findTestObject('Page_JPetStore Demo/input_Need a user name and password_username'), 'petstoreuser')
 
 // 6. Enter password
-WebUI.setText(findTestObject('Page_JPetStore Demo/input_New password_password'), 'testuser')
+WebUI.setText(findTestObject('Page_JPetStore Demo/input_New password_password'), 'petstoreuser')
 
 // 7. Click on Login button
 WebUI.click(findTestObject('Page_JPetStore Demo/input_Need a user name and password_signon'))
